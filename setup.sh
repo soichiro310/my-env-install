@@ -28,7 +28,7 @@ echo "c.NotebookApp.ip = '133.15.24.19'" >> ~/.jupyter/jupyter_notebook_config.p
 echo "c.NotebookApp.password = u${SHA_TMP}" >> ~/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.open_browser = False" >> ~/.jupyter/jupyter_notebook_config.py
 # port number is able to change if you want
-echo "c.NotebookApp.port = '${SET_PORT}'" >> ~/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.port = ${SET_PORT}" >> ~/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.notebook_dir = '${CURRENT}'" >> ~/.jupyter/jupyter_notebook_config.py
 
 # need to 'environment_kernels'
