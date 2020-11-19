@@ -1,9 +1,10 @@
+conda install python==3.7 -y
 conda install jupyter -y
 conda install matplotlib -y
 conda install pandas -y
 conda install scikit-learn -y
 
-conda install tensorflow-gpu==1.12.0 -y
+conda install tensorflow-gpu==1.14.0 -y
 conda install keras-gpu==2.2.4 -y
 conda install cudatoolkit==9.0 -y
 conda install pydotplus -y
